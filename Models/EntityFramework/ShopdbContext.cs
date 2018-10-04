@@ -5,9 +5,9 @@ namespace Models.EntityFramework
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class Shop : DbContext
+    public partial class ShopdbContext : DbContext
     {
-        public Shop()
+        public ShopdbContext()
             : base("name=ShopDbContext")
         {
             var instance = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
