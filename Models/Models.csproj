@@ -50,6 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BussinessLogic\Bus\Client\LoginBus.cs" />
+    <Compile Include="BussinessLogic\Parameter\Client\BillParameter.cs" />
+    <Compile Include="BussinessLogic\Parameter\Client\DetailProductParameter.cs" />
+    <Compile Include="BussinessLogic\Parameter\Client\HomeParameter.cs" />
+    <Compile Include="BussinessLogic\Parameter\Client\LoginParameter.cs" />
+    <Compile Include="BussinessLogic\Parameter\Client\ProductListParameter.cs" />
+    <Compile Include="BussinessLogic\StoreProcedureConst.cs" />
+    <Compile Include="DataAccess\UserDao.cs" />
     <Compile Include="EntityFramework\Bill.cs" />
     <Compile Include="EntityFramework\Category.cs" />
     <Compile Include="EntityFramework\Comment.cs" />
@@ -59,13 +67,17 @@
     <Compile Include="EntityFramework\Product.cs" />
     <Compile Include="EntityFramework\Rating.cs" />
     <Compile Include="EntityFramework\Reply.cs" />
-    <Compile Include="EntityFramework\Shop.cs" />
+    <Compile Include="EntityFramework\ShopdbContext.cs" />
     <Compile Include="EntityFramework\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BussinessLogic\Bus\Manager\" />
+    <Folder Include="BussinessLogic\Parameter\Manager\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
