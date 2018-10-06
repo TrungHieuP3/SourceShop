@@ -5,9 +5,9 @@ namespace Models.EntityFramework
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class ShopdbContext : DbContext
+    public partial class ShopDbContext : DbContext
     {
-        public ShopdbContext()
+        public ShopDbContext()
             : base("name=ShopDbContext")
         {
             var instance = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
@@ -31,17 +31,12 @@ namespace Models.EntityFramework
                 .IsUnicode(false);
 
             modelBuilder.Entity<Bill>()
-                .Property(e => e.UserID)
+                .Property(e => e.UserName)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Bill>()
                 .Property(e => e.CusID)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<Bill>()
-                .HasMany(e => e.Orders)
-                .WithRequired(e => e.Bill)
-                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Category>()
                 .Property(e => e.CateID)
@@ -139,11 +134,6 @@ namespace Models.EntityFramework
             modelBuilder.Entity<User>()
                 .Property(e => e.Passwd)
                 .IsUnicode(false);
-
-            modelBuilder.Entity<User>()
-                .HasMany(e => e.Bills)
-                .WithOptional(e => e.User)
-                .HasForeignKey(e => e.UserID);
         }
     }
 }

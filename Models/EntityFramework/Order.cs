@@ -29,8 +29,6 @@ namespace Models.EntityFramework
 
         public DateTime? UpdateAt { get; set; }
 
-        public virtual Bill Bill { get; set; }
-
         public virtual Product Product { get; set; }
     }
 }
