@@ -1,13 +1,7 @@
-﻿using Models.BussinessLogic.Constants;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Models.BusinessLogic.Parameter
+﻿namespace Models.BusinessLogic.Parameter
 {
+    using System.Data.SqlClient;
+
     public static class LoginParameter
     {
         private const string PARAMETER_1 = "@uname";

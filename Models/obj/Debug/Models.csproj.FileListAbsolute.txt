@@ -1,0 +1,9 @@
+D:\Dev\Shop\Models\bin\Debug\Models.dll.config
+D:\Dev\Shop\Models\bin\Debug\Models.dll
+D:\Dev\Shop\Models\bin\Debug\Models.pdb
+D:\Dev\Shop\Models\bin\Debug\EntityFramework.dll
+D:\Dev\Shop\Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dev\Shop\Models\bin\Debug\EntityFramework.xml
+D:\Dev\Shop\Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dev\Shop\Models\obj\Debug\Models.dll
+D:\Dev\Shop\Models\obj\Debug\Models.pdb

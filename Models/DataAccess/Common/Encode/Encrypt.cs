@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Models.Common
+﻿namespace Models.Common
 {
+    using Models.DataAccess.Common;
+    using System;
+    using System.Security.Cryptography;
+    using System.Text;
+
     public static class Encrypt
     {
         public static string Encrypt_Code(string toEncrypt, bool useHashing = true)

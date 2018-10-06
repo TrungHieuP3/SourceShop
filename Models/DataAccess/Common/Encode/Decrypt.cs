@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Models.DataAccess.Common
+﻿namespace Models.DataAccess.Common
 {
+    using System;
+    using System.Security.Cryptography;
+    using System.Text;
+
     public static class Decrypt
     {
         public static string Decrypt_Code(string toDecrypt, bool useHashing = true)
