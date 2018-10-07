@@ -55,13 +55,8 @@
     <Compile Include="DataAccess\Common\CommonConstants.cs" />
     <Compile Include="DataAccess\Common\Encode\Decrypt.cs" />
     <Compile Include="DataAccess\Common\Encode\Encrypt.cs" />
-    <Compile Include="DataAccess\Common\StoreProcedureConstants.cs" />
-    <Compile Include="DataAccess\Parameter\Client\BillParameter.cs" />
-    <Compile Include="DataAccess\Parameter\Client\DetailProductParameter.cs" />
-    <Compile Include="DataAccess\Parameter\Client\HomeParameter.cs" />
-    <Compile Include="DataAccess\Parameter\Client\LoginParameter.cs" />
-    <Compile Include="DataAccess\Parameter\Client\ProductListParameter.cs" />
-    <Compile Include="DataAccess\UserDao.cs" />
+    <Compile Include="DataAccess\DataTransion\Dto\UserDto.cs" />
+    <Compile Include="DataAccess\DataTransion\UserDao.cs" />
     <Compile Include="EntityFramework\Bill.cs" />
     <Compile Include="EntityFramework\Category.cs" />
     <Compile Include="EntityFramework\Comment.cs" />
@@ -80,9 +75,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BusinessLogic\Centre\" />
     <Folder Include="BusinessLogic\Client\" />
-    <Folder Include="BusinessLogic\Manager\" />
-    <Folder Include="DataAccess\Parameter\Manager\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

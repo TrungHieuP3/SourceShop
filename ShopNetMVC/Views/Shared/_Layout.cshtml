@@ -1,1 +1,184 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Coffee Shop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../assets/custom/css/type.css" rel="stylesheet">
+    <link href="../assets/custom/css/responsive.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wapper">
+        <div id="header">
+            <div id="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4" id="text-logo">
+                            <span>The Coffee Home</span>
+                        </div>
+                        <div class="col-md-5 col-sm-5" id="form-search-common">
+                            <form action="" class="search-form">
+                                <div class="form-group has-feedback">
+                                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                    <input type="text" class="form-control" name="search" id="search" placeholder="Search...">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3 col-sm-3" id="login-registration">
+                            <ul class="navigation-bar">
+                                <li class="event-show">
+                                    <a href="javascript:void(0);">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </li>
+                                @RenderPage("_Loginbar.cshtml")
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4" id="img-logo">
+                            <img src="../assets/image/img-common/coffee-house-logos.png" alt="logo-coffee" height="100px">
+                            <img src="../assets/image/img-common/coffee-house-logo.png" alt="logo-coffee" height="60px">
+                        </div>
+                        <div class="col-md-8 col-sm-8" id="menu-bar">
+                            <ul class="navigation-bar">
+                                <li class="active">
+                                    <a href="../">
+                                        Trang Chủ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Giỏ Hàng
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Giới Thiệu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Liên Hệ
+                                    </a>
+                                </li>
+                                <li class="event-show-menu">
+                                    <a href="javascript:void(0);">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-footer">
+                <img src="../assets/image/img-common/slide.jpg" width="100%" height="auto">
+                <div class="container">
+                    <!-- slide-img -->
+                </div>
+            </div>
+        </div>
+        <div id="body">
+            <div class="container">
+                <div id="body-header" class="row">
+                    <div class="col-md-3 col-sm-3 col-md-offset-1 col-sm-offset-1 criteria">
+                        <div class="card-criteria">
+                            <img src="../assets/image/img-common/icon-space.png" height="32px">
+                            <p class="text-uppercase">không gian sang trọng</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 criteria">
+                        <div class="card-criteria">
+                            <img src="../assets/image/img-common/icon-people.png" height="32px">
+                            <p class="text-uppercase">đội ngũ nhân viên nhiệt tình</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 criteria">
+                        <div class="card-criteria">
+                            <img src="../assets/image/img-common/icon-earth.png" height="32px">
+                            <p class="text-uppercase">giao hàng tận nơi</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="body-wapper">
+                    <!-- content -->
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div id="footer-body">
+                    <div class="row">
+                        <div id="sub-logo" class="col-sm-3 col-md-3">
+                            <img src="../assets/image/img-common/coffee-shop-logo.jpg" alt="sublogo" height="80px">
+                        </div>
+                        <div class="col-sm-2 col-md-2 footer-title text-uppercase">
+                            <p><i>my account</i></p>
+                        </div>
+                        <div class="col-sm-3 col-md-2 col-lg-2 footer-title text-uppercase">
+                            <p><i>tiêu chí</i></p>
+                        </div>
+                        <div class="col-sm-4 col-md-5 col-lg-5 footer-title text-uppercase">
+                            <p><i>về chúng tôi</i></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <p>223 Võ Văn Tần, Quận 3, Hồ Chí Minh</p>
+                            <p>Hotline: 028 71 087 088</p>
+                            <p>Giao hàng miễn phí: 18006936</p>
+                        </div>
+                        <div class="col-sm-2 col-md-2">
+                            <p><a href="">Giỏ hàng</a></p>
+                            <p><a href="">Đặt hàng</a></p>
+                            <p><a href="">Thông tin cá nhân</a></p>
+                        </div>
+                        <div class="col-sm-3 col-md-2 col-lg-2">
+                            <p>Nhân viên nhiệt tình</p>
+                            <p>Không gian trang trọng</p>
+                            <p>Giao hàng tận nơi</p>
+                        </div>
+                        <div class="col-sm-4 col-md-5 col-lg-5">
+                            <p>Với đội ngũ nhân viên nhiệt tình cộng với chất lượng hảo hạn của các sản phẩm tại đây, chúng tôi hi vọng quý khách sẽ có những phút giây tuyệt vời bên bạn về, gia đình và người thân</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-bottom">
+                    <!-- description author -->
+                    <p>Địa chỉ: 223 Võ Văn Tần, Quận 3, Hồ Chí Minh</p>
+                    <p>Hotline: 028 71 087 088 - Giao hàng miễn phí: 18006936</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../assets/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../assets/custom/js/matterPage.js"></script>
+    @RenderSection("JavaScript", false)
+</body>
+</html>

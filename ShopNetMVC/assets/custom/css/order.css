@@ -1,0 +1,108 @@
+#body-wapper {
+	background-color: unset;
+	box-shadow: unset;
+}
+.content-body {
+	margin: 0px;
+	padding: 0px;
+}
+#left-ctb, #right-ctb {
+	min-height: 150px;
+	background-color: #fff;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+}
+.right-ctb-content, .left-ctb-content {
+	padding: 20px 30px 10px;
+	color: #6b3f2d;
+}
+.right-ctb-content .title {
+	padding: 5px;
+	font-size: 14px;
+    background: #8a5440;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.right-ctb-content .content {
+	min-height: 100px;
+	padding: 7px 15px;
+	-webkit-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.8);
+	box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.8);
+}
+.card-subproduct {
+	margin: 8px 0;
+}
+.card-subproduct .img-subproduct{
+	text-align: center;
+	padding: 0;
+}
+.card-subproduct .img-subproduct img {
+	border-radius: 5px;
+	width: 72%;
+	height: 60px;
+	cursor: pointer;
+}
+.card-subproduct .content-subproduct {
+	padding-left: 0;
+}
+.card-subproduct .content-subproduct .title-product,
+.card-subproduct .content-subproduct .cost-product {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	font-style: italic;
+	padding: 5px 65px 5px 20px;
+}
+.card-subproduct .content-subproduct .title-product a {
+	text-decoration: none;
+	color: #6b3f2d;
+}
+.card-subproduct .content-subproduct .title-product a:hover {
+	color: #d9a33c;
+}
+.hr {
+	border: 1px solid #eee;
+}
+/*left-ctb*/
+#img-product {
+	text-align: center;
+	padding: 0 15px 10px;
+}
+#img-product img {
+	width: 70%;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8);
+}
+#context-product {
+	padding: 0px;
+	margin: auto;
+	font-style: italic;
+}
+#context-product #title-product p:first-child {
+	font-size: 20px;
+	text-align: center;
+	margin: 20px auto;
+}
+.order-product {
+	margin-bottom: 15px;
+}
+.order-product form input[type=number] {
+	border-radius: 5px;
+	border: 1px solid #d2d2d2;
+	padding: 5px 5px 5px 10px;
+	width: 30%;
+}
+.order-product input[type=submit], #evaluate input[type=submit] {
+	margin-left: 20px;
+	font-weight: bold;
+	padding: 5px 12px;
+}
+#evaluate input[type=submit] {
+	margin: 0px;
+}

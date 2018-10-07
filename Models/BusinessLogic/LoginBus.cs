@@ -8,5 +8,28 @@ namespace Models.BusinessLogic
 {
     public class LoginBus
     {
+        public bool CheckExist()
+        {
+            // TODO
+            // ...
+            return true;
+        }
+        public bool CheckGrant()
+        {
+            // TODO
+            // ...
+            return true;
+        }
+        public void CreateSession()
+        {
+            // TODO
+            // ...
+        }
+        public bool CleanSession()
+        {
+            // TODO
+            // ...
+            return true;
+        }
     }
 }

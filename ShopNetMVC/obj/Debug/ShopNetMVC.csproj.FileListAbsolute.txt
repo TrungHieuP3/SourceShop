@@ -43,3 +43,10 @@ D:\Dev\Shop\ShopNetMVC\bin\System.Web.Helpers.xml
 D:\Dev\Shop\ShopNetMVC\bin\System.Web.Mvc.xml
 D:\Dev\Shop\ShopNetMVC\obj\Debug\ShopNetMVC.dll
 D:\Dev\Shop\ShopNetMVC\obj\Debug\ShopNetMVC.pdb
+D:\Dev\Shop\ShopNetMVC\bin\Models.dll
+D:\Dev\Shop\ShopNetMVC\bin\EntityFramework.dll
+D:\Dev\Shop\ShopNetMVC\bin\EntityFramework.SqlServer.dll
+D:\Dev\Shop\ShopNetMVC\bin\Models.pdb
+D:\Dev\Shop\ShopNetMVC\bin\EntityFramework.xml
+D:\Dev\Shop\ShopNetMVC\bin\EntityFramework.SqlServer.xml
+D:\Dev\Shop\ShopNetMVC\obj\Debug\ShopNetMVC.csprojResolveAssemblyReference.cache
